@@ -1,5 +1,5 @@
 # dotnet7-rpg
-.NET 7 Beginner Course 🚀 Web API, Entity Framework 7 & SQL Server
+.NET 7 Web API, Entity Framework 7 & SQL Server
 
 -Set up Web API;
 -Restful Web Service calls(GET, POST, PUT, DELETE);
