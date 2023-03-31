@@ -152,7 +152,7 @@ Another vulnerability is that the application is using the nullable disable dire
 
 ---
 
-Documentation for Character:
+Documentation for Character code
 Overview:
 This code defines a C# class Character with six properties: Id, Name, HitPoints, Strength, Defense, Intelligence and Class.
 
