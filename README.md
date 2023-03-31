@@ -18,7 +18,8 @@
 -All CRUD operations with EF Core;
 ---
 Documentation for the CharacterController Code
-The code above is a C# class that defines an API controller for a fictional RPG game, which provides CRUD (Create, Read, Update, Delete) operations for characters. The code uses the ASP.NET Core framework to define the API endpoints and handles the requests using the methods defined in the controller.
+
+The code is a C# class that defines an API controller for a fictional RPG game, which provides CRUD (Create, Read, Update, Delete) operations for characters. The code uses the ASP.NET Core framework to define the API endpoints and handles the requests using the methods defined in the controller.
 
 Running the Code
 To run the code on a local machine, follow these steps:
@@ -45,7 +46,8 @@ Secure communication: The code does not use SSL/TLS to secure communication betw
 
 ---
 Documentation for the DataContext Code
-The code above is a C# class that defines a DataContext for a fictional RPG game using Entity Framework Core. The DataContext class extends the DbContext class from the Entity Framework Core framework to allow interaction with the underlying database.
+
+The code is a C# class that defines a DataContext for a fictional RPG game using Entity Framework Core. The DataContext class extends the DbContext class from the Entity Framework Core framework to allow interaction with the underlying database.
 
 Running the Code
 To run the code on a local machine, follow these steps:
@@ -67,7 +69,8 @@ Input validation: The code does not validate the input received from the client 
 
 ---
 Documentation for the AddCharacterDto Code
-The code above is a C# class that defines a Data Transfer Object (DTO) for adding a new character to a fictional RPG game. The AddCharacterDto class contains properties that correspond to the fields required to add a new character, such as name, hit points, strength, defense, intelligence, and class.
+
+The code is a C# class that defines a Data Transfer Object (DTO) for adding a new character to a fictional RPG game. The AddCharacterDto class contains properties that correspond to the fields required to add a new character, such as name, hit points, strength, defense, intelligence, and class.
 
 Running the Code
 Since this is a DTO class and not a standalone application, it cannot be run on its own. Instead, it is used in conjunction with other code that interacts with it, such as the CharacterController class. To run the entire application, follow the steps outlined in the documentation for the relevant classes.
@@ -83,7 +86,8 @@ Input validation: The code does not validate the input received from the client 
 ---
 
 Documentation for the GetCharacterDto Code
-The code above is a C# class that defines a Data Transfer Object (DTO) for retrieving a character from a fictional RPG game. The GetCharacterDto class contains properties that correspond to the fields of a character, such as name, hit points, strength, defense, intelligence, and class.
+
+The code is a C# class that defines a Data Transfer Object (DTO) for retrieving a character from a fictional RPG game. The GetCharacterDto class contains properties that correspond to the fields of a character, such as name, hit points, strength, defense, intelligence, and class.
 
 Running the Code
 Since this is a DTO class and not a standalone application, it cannot be run on its own. Instead, it is used in conjunction with other code that interacts with it, such as the CharacterController class. To run the entire application, follow the steps outlined in the documentation for the relevant classes.
@@ -98,6 +102,7 @@ Input validation: The code does not validate the input received from the client 
 
 ---
 Documentation for UpdateCharacterDto class
+
 This code represents a C# class called UpdateCharacterDto which is part of the dotnet_rpg.Dto.Character namespace.
 
 Purpose
@@ -154,6 +159,7 @@ Another vulnerability is that the application is using the nullable disable dire
 ---
 
 Documentation for Character code
+
 Overview:
 This code defines a C# class Character with six properties: Id, Name, HitPoints, Strength, Defense, Intelligence and Class.
 
